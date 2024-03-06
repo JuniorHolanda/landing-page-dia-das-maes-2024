@@ -1,0 +1,48 @@
+@import url("https://use.typekit.net/gvo6ejr.css");
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url("https://use.typekit.net/oqh1shf.css");
+
+:root{
+    --first-color:#9F84BD;
+    --second-color:#C09BD8;
+    --third-color:#EBC3DB;
+    --fourth-color:#EDE3E9;
+    --fifth-color:#E6E4CE;
+    --clean-color:#E6E4CE;
+    --contrast-color:#023A47;
+    --dark-color:#3A3A3A;
+
+    --font-destaque: "miller-display", serif;
+    --font-destaque-2: "Sacramento", "cursive";
+    --second-font: "neuzeit-grotesk-condensed", sans-serif;;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    background-color: aqua;
+    padding: 1rem;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-destaque);
+    font-size: 3rem;
+}
+
+
+button {
+    border: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
