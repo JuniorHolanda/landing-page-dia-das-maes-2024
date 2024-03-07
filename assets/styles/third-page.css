@@ -1,5 +1,54 @@
 .third-page{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: blue;
+    grid-area: "imagem-principal info-fotos-nec-mil";
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--first-color);
+    border: solid rgb(255, 0, 128);
+}
+
+.img-third-page{
+    border: gray solid;
+    height: 100%;
+}
+.container-img-emphasis-third-page{
+    width: 50%;
+}
+
+.container-prducts-nec-mil{
+    border: solid pink;
+    height: 100%;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img-nec-mil{
+    grid-area: "info-fotos-nec-mil";
+    grid-template-columns: 2/3;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 60%;
+    border: solid yellow;
+}
+
+.img-nec-mil-1{
+    bottom: 0;
+    position: relative;
+}
+
+.img-nec-mil-2{
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+}
+
+.img-nec-mil-3{
+    top: 0;
+    right: 0;
+    position: relative;
 }
