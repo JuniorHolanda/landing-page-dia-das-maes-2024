@@ -1,0 +1,22 @@
+.fourth-page{
+    display: flex;
+    gap: 2rem;
+    padding: 3rem;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.container-img-bolsas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.img-bolsas{
+    width: 100%;
+    object-fit: cover;
+}

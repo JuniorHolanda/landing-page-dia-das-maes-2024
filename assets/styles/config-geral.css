@@ -25,7 +25,8 @@
 
 a {
     text-decoration: none;
-    background-color: aqua;
+    background-color: var(--contrast-color);
+    color: var(--fourth-color);
     padding: 1rem;
 }
 
