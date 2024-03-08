@@ -1,22 +1,38 @@
 .fourth-page{
     display: flex;
-    gap: 2rem;
-    padding: 3rem;
+    justify-content: center;
+    align-items: center;
     width: 100vw;
     height: 100vh;
+    padding: 3rem;
+    gap: 2rem;
 }
 
-
-.container-img-bolsas{
+.container-bolsa-praia-miu{
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    height: 80%;
-    overflow: hidden;
-    border-radius: 30px;
+    align-items: end;
+    width: 100%;
+    gap: 2rem;
+
 }
 
-.img-bolsas{
+.container-bolsa-praia-miu p {
+    max-width: 50%;
+    text-align: end;
+}
+
+.container-bolsa-praia-duo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
     width: 100%;
-    object-fit: cover;
+    gap: 2rem;
+}
+
+.container-bolsa-praia-duo p {
+    max-width: 50%;
+    text-align: start;
 }

@@ -1,0 +1,91 @@
+.sixth-page{
+    display: flex;
+    gap:3rem;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--third-color);
+}
+
+.container-left-img-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+
+}
+
+.img-main-tres-marias{
+    position: relative;
+    display: flex;
+    width: 80%;
+    height: 80%;
+    flex-direction: column;
+}
+
+.img-01-sixth-page{
+    display: flex;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.img-main-sixth-page img{
+    max-width: 400px;
+    border-radius: 30px;
+}
+
+.medidas-tres-marias{
+    position: absolute;
+    bottom: 5rem;
+    left: 6rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.medidas-tres-marias h3{
+    color: var(--contrast-color);
+    font-family: var(--second-font);
+    font-size: 1.5rem;
+}
+
+.medidas-tres-marias p{
+    color: var(--dark-color);
+    font-family: var(--second-font);
+    font-size: 1rem;
+}
+    
+
+
+
+.img-second-tres-marias{
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.img-second-tres-marias img{
+    max-width: 400px;
+    border-radius: 30px;
+}
+
+.info-tres-marias {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    align-items: start;
+    width: 40%;
+    color: var(--first-color);
+}
+
+.info-tres-marias p {
+    width: 60%;
+    color: var(--contrast-color);
+    font-family: var(--second-font);
+}
+
+.info-tres-marias a {
+    font-family: var(--second-font);
+}
