@@ -9,6 +9,11 @@
     background-color: var(--contrast-color);
 }
 
+.second-page {
+    animation: slide-to-right 1s ease-in-out;
+    animation-range: view();
+}
+
 .container-img-second-page{
     display: flex;
     flex-direction: column;

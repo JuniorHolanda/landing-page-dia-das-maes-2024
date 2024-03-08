@@ -3,7 +3,11 @@
     align-items: center;
     width: 100vw;
     height: 100vh;
+}
 
+.first-page {
+    animation: slide-to-right 1s ease-in-out;
+    animation-range: view();
 }
 .slider-container{
     display: flex;
@@ -95,4 +99,6 @@
     width: 90%;
     color: var(--clean-color);
 }
+
+
 

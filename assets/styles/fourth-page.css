@@ -15,12 +15,16 @@
     align-items: end;
     width: 100%;
     gap: 2rem;
+}
 
+.img-bolsas{
+    width: 400px;
+    border-radius: 30px;
 }
 
 .container-bolsa-praia-miu p {
     max-width: 50%;
-    text-align: end;
+    text-align: start;
 }
 
 .container-bolsa-praia-duo{
