@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dia das mães 2024</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/styles/config-geral.css">
     <link rel="stylesheet" href="assets/styles/main.css">
     <link rel="stylesheet" href="assets/styles/firstpage.css">
@@ -13,33 +13,80 @@
     <link rel="stylesheet" href="assets/styles/fifth-page.css">
     <link rel="stylesheet" href="assets/styles/sixth-page.css">
     <link rel="stylesheet" href="assets/styles/animation.css">
+    <title>Dia das mães 2024</title>
 </head>
 <body>
     <main class="container-wrapper">
         <!--INÍCIO PRIMEIRA PÁGINA-->
-        <section class="first-page">
-            <div class="slider-container">
-                <div class="slider-box">
-                    <img src="assets/img/destaques/tres-marias.jpg" alt="">
-                    <img src="assets/img/destaques/bolsa-praia-duo.jpg" alt="">
-                    <img src="assets/img/destaques/bolsa-praia-miu.jpg" alt="">
-                    <img src="assets/img/destaques/nec-vani.jpg" alt="">
-                    <img src="assets/img/destaques/organizador-de-viagem.jpg" alt="">
-                    <img src="assets/img/destaques/necessaire-mil-clear.jpg" alt="">
-                </div>
-                <h1>Organizador de Viagem</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum minima, doloremque nobis nulla sapiente pariatur eos vitae repellat aut modi voluptatibus sed ratione atque cupiditate. Modi amet unde vero odio?</p>
-            </div>
+        <section class="container-first-page">
+            <div class="lateral-esquerda">
 
+                <!-- início do slider -->
+                <div data-slide="slide" class="slider-container"> <!--ELEMENTO PAI DO SLIDE-->
+                    <!-- imagens do slider -->
+                    <div class="slide-items">
+                        <div class="img-slide">
+                            <img class="img-item-slide" src="assets/img/slide/quadrada/quadrada-tres-marias.jpg" alt="">
+                            <!-- informações do slide -->
+                            <h1>Kit necessaire <br>tres Marias</h1>
+                            <p>O kit de necessaires 3 Marias trazpraticidade e estilo em<strong>três tamanhos diferentes.</strong></p>
+                        </div>
+                        <div class="img-slide">
+                            <img class="img-item-slide" src="assets/img/slide/quadrada/quadrado-bolsa-praia.jpg" alt="">
+                            <!-- informações do slide -->
+                            <h1>Bolsa Praia duo</h1>
+                            <p>O kit de necessaires 3 Marias traz praticidade e estilo em<strong><br>três tamanhos diferentes.</strong></p>
+                        </div>
+                        <div class="img-slide">
+                            <img class="img-item-slide" src="assets/img/slide/quadrada/quadrado-bolsa-miu.jpg" alt="">
+                
+                            <!-- informações do slide -->
+                            <h1>Kit necessaire <br>tres Marias</h1>
+                            <p>O kit de necessaires 3 Marias traz praticidade e estilo em<strong><br>três tamanhos diferentes.</strong></p>
+                        </div>
+                        <div class="img-slide">
+                            <img class="img-item-slide" src="assets/img/slide/quadrada/quadrado-nec-vani-slides.jpg" alt="">
+                
+                            <!-- informações do slide -->
+                            <h1>Kit necessaire <br>tres Marias</h1>
+                            <p>O kit de necessaires 3 Marias traz praticidade e estilo em<strong><br>três tamanhos diferentes.</strong></p>
+                        </div>
+                        <div class="img-slide">
+                            <img class="img-item-slide" src="assets/img/slide/quadrada/quadrado-organizador-de-viagem-slides.jpg" alt="">
+                
+                            <!-- informações do slide -->
+                            <h1>Kit necessaire <br>tres Marias</h1>
+                            <p>O kit de necessaires 3 Marias traz praticidade e estilo em<strong><br>três tamanhos diferentes.</strong></p>
+                        </div>
+                        <div class="img-slide">
+                            <img class="img-item-slide" src="assets/img/slide/quadrada/-quadrado-nec-miu-slide.jpg" alt="">
+                
+                            <!-- informações do slide -->
+                            <h1>Kit necessaire <br>tres Marias</h1>
+                            <p>O kit de necessaires 3 Marias traz praticidade e estilo em<strong><br>três tamanhos diferentes.</strong></p>
+                        </div>
+                    </div>
+                    <!-- navegação slide -->
+                    <nav class="slide-nav">
+                        <div class="slide-thumb"></div>
+                        <button class="slide-prev fa-solid fa-circle-arrow-left"></button>
+                        <button class="slide-next fa-solid fa-circle-arrow-right"></button>
+                    </nav>
+                </div>
+                           
+            </div>
+            <!-- início do card com animações -->
             <div class="container-card-dia-das-maes">
+                
                 <div class="card-dia-das-maes">
                     <div class="logo-mm-card-dia-das-maes">
                         <img class="logo-circle-animated" src="assets/img/logos/circle-miriam-logo.svg" alt="">
                         <img class="logo-mm-animated" src="assets/img/logos/logo-circle-miriam-momesso.svg" alt="">
                     </div>
                     <h2>Dia das Mães</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio nesciunt voluptatum libero neque deserunt corporis consectetur quasi nulla eligendi totam voluptate laudantium, ipsa eius aperiam, ratione fugiat amet repellat explicabo.</p>
+                    <p>Que este Dia das Mães seja repleto de momentos especiais e lembranças preciosas.</p>
                 </div>
+                
             </div>
         </section> <!--fim da primeira página-->
 
@@ -166,6 +213,8 @@
         </section><!--fim da sexta página-->
 
     </main>
+
+    <script src="assets/script/slide.js"></script>
     
 </body>
 </html>

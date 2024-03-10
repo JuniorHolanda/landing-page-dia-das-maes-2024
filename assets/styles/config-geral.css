@@ -3,14 +3,13 @@
 @import url("https://use.typekit.net/oqh1shf.css");
 
 :root{
-    --first-color:#9F84BD;
-    --second-color:#C09BD8;
-    --third-color:#EBC3DB;
-    --fourth-color:#EDE3E9;
-    --fifth-color:#E6E4CE;
-    --clean-color:#E6E4CE;
-    --contrast-color:#023A47;
-    --dark-color:#3A3A3A;
+    --first-color:#F26D85;
+    --second-color:#F2F2F2;
+    --third-color:#BF69B1;
+    --fourth-color:#D4ADD9;
+    --fifth-color:#D9B8B8;
+    --clean-color:#ffffff;
+    --dark-color:#353535;
 
     --font-destaque: "miller-display", serif;
     --font-destaque-2: "Sacramento", "cursive";
@@ -33,18 +32,26 @@ a {
 h1, h2, h3 {
     margin: 0;
     padding: 0;
-    font-family: var(--font-destaque);
+    font-family: var(--font-destaque-2);
     font-size: 3rem;
+    font-weight: 100;
+    line-height: 50px;
 }
 
-
-button {
-    border: none;
+p {
+    font-family: var(--font-destaque);
+    font-size: 1.4rem;
+    line-height: 30px;
 }
+
 
 body{
     display: flex;
     flex-direction: column;
     width: 100vw;
+}
+
+strong {
+    font-size: 1.4rem;
 }
 

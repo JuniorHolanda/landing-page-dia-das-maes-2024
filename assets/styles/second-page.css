@@ -2,11 +2,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
     width: 100vw;
     height: 100vh;
     padding: 1rem;
     background-color: var(--contrast-color);
+
+    /* inicio da animação */
+    animation: slide-to-right;
 }
 
 .second-page {

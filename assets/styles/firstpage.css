@@ -1,104 +1,182 @@
-.first-page{
+.container-first-page{
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 100vw;
     height: 100vh;
+    background-color: var(--second-color);
+    
+    /* Início da animação */
+    animation: slide-to-right 1s ease-out;
 }
 
-.first-page {
-    animation: slide-to-right 1s ease-in-out;
-    animation-range: view();
+.lateral-esquerda {
+    display: flex;
+    width: 50%;
+    justify-content: end;
 }
+
 .slider-container{
+    position: relative;
+    grid-area: 1/1;
+    display: grid;
+    flex-direction: column;
+}
+
+/* Isso se aplica aos filhos do slide item */
+.slide-items > *{
+    position: absolute;
     display: flex;
     flex-direction: column;
+    gap: 2rem;
     align-items: end;
-    width: 50%;
-    height: 80%;
-    padding: 30px;
+    justify-content: center;
+    text-align: right;
+    opacity: 0;
+    pointer-events: none;
 }
 
-.slider-container h1{
-    width: 50%;
-    text-align: end;
-    color: var(--contrast-color);
+.slide-items > .active{
+    position: relative;
+    opacity: 1;
+    pointer-events: initial;
 }
 
-.slider-container p {
-    width: 50%;
-    text-align: end;
-    color: var(--dark-color);
-}
-
-
-.slider-box{
-    display: flex;
-    width: 400px;
-    height: 70%;
-    overflow: hidden;
-    gap: 3rem;
+.img-item-slide{
     border-radius: 10px;
-}
-
-.slider-box > img{
-    object-fit: cover;
     width: 100%;
-    flex-grow: 1;
-    
+    max-width: 400px;
 }
 
+.img-slide{
+    max-width: 100%;
+}
+
+.img-slide p{
+    max-width: 400px;
+}
+
+.slide-nav {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-area: 1/1;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    grid-template-rows: auto 1fr;
+}
+
+/* setas */
+.slide-nav > button {
+    background-color: rgba(240, 248, 255, 0);
+    color:#ffffffa4;
+    border: none;
+}
+
+/* seta para a esquerda */
+.fa-circle-arrow-right {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: none;
+}
+
+/* Seta para direita */
+.fa-circle-arrow-left {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: none;
+}
+
+.slide-thumb {
+    display: flex;
+    grid-column: 1/3;
+}
+
+.slide-thumb > span {
+    flex: 1;
+    display: block;
+    height: 3px;
+    background-color: #00000070;
+    margin: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+
+.slide-thumb > span.active::after{
+    content: '';
+    display: block;
+    height: inherit;
+    background-color: #ffffffa4;
+    transform: translateX(-100%);
+    border-radius: 3px;
+
+    /* início da animação */
+    animation: thumb 6s linear forwards ;
+}
+
+/* início do card com animações */
 .container-card-dia-das-maes{
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    width: 50%; 
-    height: 80%;   
+    height: 100% ;  
     padding: 30px;
 }
 
 .card-dia-das-maes{
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    padding: 20px;
+    gap: 2rem;
+    padding: 6rem 3rem;
     width: 40%;
     height: 80%;
     background-color: var(--first-color);
     border-radius: 10px;
-    
-
 }
 
-/* Logo animado */
 .logo-mm-card-dia-das-maes{
-    height: 50%;
+    animation: slide-to-right 1.3s ease-out;
     position: relative;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
 
 .logo-circle-animated{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    max-width: 100%;
+
+    /* animação de rotação */
+    animation: rotation 20s linear infinite ;
 }
 
 .logo-mm-animated{
+    max-width: 100%;
     position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
- 
-}/* Fim logo animado */
-
-
-
-.card-dia-das-maes > h2, .card-dia-das-maes > p {
-    width: 90%;
-    color: var(--clean-color);
 }
 
+.card-dia-das-maes > h2 {
+    width: 90%;
+    color: var(--clean-color);
+
+    /* animação deslisar para cima */
+    animation: slide-to-right 1.5s ease-out;
+}
+
+.card-dia-das-maes > p {
+    width: 90%;
+    color: var(--clean-color);
+
+    /* animação deslisar para cima */
+    animation: slide-to-right 1.7s ease-out;
+}
 
 
