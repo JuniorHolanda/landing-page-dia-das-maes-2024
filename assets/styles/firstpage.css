@@ -13,6 +13,7 @@
 .lateral-esquerda {
     display: flex;
     width: 50%;
+    align-items: start;
     justify-content: end;
 }
 
@@ -40,6 +41,8 @@
     position: relative;
     opacity: 1;
     pointer-events: initial;
+    
+    animation: entrada .3s;
 }
 
 .img-item-slide{
@@ -51,10 +54,15 @@
 .img-slide{
     max-width: 100%;
 }
+.img-slide h2{
+    color: var(--first-color);
+}
 
 .img-slide p{
+    color: var(--dark-color);
     max-width: 400px;
 }
+
 
 .slide-nav {
     position: absolute;

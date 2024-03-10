@@ -9,7 +9,7 @@
     --fourth-color:#D4ADD9;
     --fifth-color:#D9B8B8;
     --clean-color:#ffffff;
-    --dark-color:#353535;
+    --dark-color:#585858;
 
     --font-destaque: "miller-display", serif;
     --font-destaque-2: "Sacramento", "cursive";
@@ -40,7 +40,7 @@ h1, h2, h3 {
 
 p {
     font-family: var(--font-destaque);
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: 30px;
 }
 
@@ -52,6 +52,6 @@ body{
 }
 
 strong {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    color: var(--first-color);
 }
-

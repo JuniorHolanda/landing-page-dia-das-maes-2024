@@ -35,6 +35,7 @@
     }
 }
 
+/* animação de de progresso do stories */
 @keyframes thumb {
     to {
         transform: initial;
