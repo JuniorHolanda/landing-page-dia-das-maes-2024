@@ -4,39 +4,105 @@
     align-items: center;
     width: 100vw;
     height: 100vh;
-    padding: 3rem;
-    gap: 2rem;
 }
 
 .container-bolsa-praia-miu{
+ display: grid;
+ padding: 3rem;
+ gap: 20px;
+ align-self: center;
+ justify-items: center;
+ text-align: center;
+ width: 50%;
+ background-image: url(/assets/img/logos/folhas-background.png);
+ background-color: var(--fifth-color);
+}
+
+.img-01{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: end;
-    width: 100%;
-    gap: 2rem;
+    align-items: center;
+    max-width: 600px;
+    border-radius: 50% 50% 3px 3px;
+    overflow: hidden;
+}
+.img-01 img{
+    object-fit: cover;
 }
 
-.img-bolsas{
-    width: 400px;
-    border-radius: 30px;
+.container-bolsa-praia-miu h2{
+    top: 10px;
+    transform: translateY(-55px);
+    font-size: 9rem;
+    line-height: 30px;
+    color: var(--third-color);
+}
+
+/* Span para estilizar apenas o nome "Bolsa" nos títulos */
+.small-name-bolsa{
+    font-size: 3rem;
 }
 
 .container-bolsa-praia-miu p {
+    color: var(--dark-color);
     max-width: 50%;
     text-align: start;
 }
 
+.container-bolsa-praia-miu a{
+    background-color: var(--dark-color);
+    color: var(--clean-color);
+}
+
+/* Início do segundo produto */
+
 .container-bolsa-praia-duo{
+    display: grid;
+    padding: 3rem;
+    gap: 20px;
+    align-self: center;
+    justify-items: center;
+    text-align: center;
+    width: 50%;
+    background-color: var(--dark-color);
+}
+
+.img-02{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
-    width: 100%;
-    gap: 2rem;
+    align-items: center;
+    max-width: 600px;
+    border-radius: 50% 50% 3px 3px;
+    overflow: hidden;
+}
+
+.img-02 img{
+    object-fit: cover;
+}
+
+.container-bolsa-praia-duo h2{
+    top: 10px;
+    transform: translateY(-55px);
+    font-size: 9rem;
+    line-height: 30px;
+    color: var(--clean-color);
+}
+
+
+/* Span para estilizar apenas o nome "Bolsa" nos títulos */
+.small-name-bolsa{
+    font-size: 3rem;
 }
 
 .container-bolsa-praia-duo p {
+    color: var(--clean-color);
     max-width: 50%;
     text-align: start;
+}
+
+.container-bolsa-praia-duo a{
+    background-color: var(--third-color);
+    color: var(--clean-color);
 }

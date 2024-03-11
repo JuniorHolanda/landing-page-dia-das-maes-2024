@@ -1,7 +1,7 @@
 .third-page{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto 1fr;
+    grid-template-rows: auto auto;
     grid-template-rows: 80vh 20vh;
     width: 100vw;
     overflow: hidden;
@@ -33,7 +33,6 @@
     width: auto;
     gap: 20px;
     padding: 30px;
-    border: solid purple;
 }
 
 .gallery-nec-mil{
@@ -86,7 +85,21 @@
 .info-nec-mil * {
     color: var(--clean-color);
 }
+.info-nec-mil h2{
+    grid-row: 1/3;
+    align-self: center;
+    justify-self: center;
+}
 
 .info-nec-mil p:nth-child(3){
     grid-column: 2/3;
+}
+
+.ancora-nec-mil{
+    text-align: center;
+    grid-column: 1/3;
+}
+.ancora-nec-mil a {
+    background-color: var(--clean-color);
+    color: var(--first-color);
 }

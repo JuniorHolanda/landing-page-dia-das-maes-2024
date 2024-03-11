@@ -4,12 +4,12 @@
 
 :root{
     --first-color:#F26D85;
-    --second-color:#F2F2F2;
-    --third-color:#BF69B1;
+    --second-color:#f2f2f2;
+    --third-color:#fb3e7a;
     --fourth-color:#D4ADD9;
-    --fifth-color:#D9B8B8;
+    --fifth-color:#f7ddff;
     --clean-color:#ffffff;
-    --dark-color:#585858;
+    --dark-color:#376960;
 
     --font-destaque: "miller-display", serif;
     --font-destaque-2: "Sacramento", "cursive";
