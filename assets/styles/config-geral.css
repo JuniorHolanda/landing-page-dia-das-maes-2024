@@ -52,10 +52,19 @@ html{
 body{
     display: flex;
     flex-direction: column;
-    width: 100%;
 }
 
 strong {
     font-size: 1.2rem;
     color: var(--first-color);
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    background-color: rgba(0, 0, 0, 0.596);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #D4ADD9;
+    border-radius: 3px;
 }
