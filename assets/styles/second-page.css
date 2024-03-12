@@ -5,10 +5,7 @@
     width: 100vw;
     height: 100vh;
     padding: 1rem;
-    background-color: var(--contrast-color);
-
-    /* inicio da animação */
-    animation: slide-to-right;
+    background-color: var(--dark-color);
 }
 
 .second-page {
@@ -63,6 +60,11 @@ width: 100%;
     height: 80%;
     gap: 2rem;
     padding: 3rem;
+}
+
+.container-info-second-page a {
+    background-color: var(--clean-color);
+    color: var(--dark-color);
 }
 
 .container-info-second-page > p, .container-info-second-page > h2{

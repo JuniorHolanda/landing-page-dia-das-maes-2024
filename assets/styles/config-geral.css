@@ -44,11 +44,15 @@ p {
     line-height: 30px;
 }
 
+html{
+    width: 100vw;
+}
+
 
 body{
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: 100%;
 }
 
 strong {
