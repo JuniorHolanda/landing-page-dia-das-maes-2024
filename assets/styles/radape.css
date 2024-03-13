@@ -1,7 +1,7 @@
 .rodape{
     display: flex;
     flex-direction: column;
-    background-color: var(--first-color);
+    background-color: var(--dark-color);
     width: 100vw;
     justify-content: center;
     align-items: center;
@@ -60,8 +60,8 @@
 
     .assinatura p {
         font-size: 1rem;
-        color:var(--fourth-color);
+        color:var(--fifth-color);
         font-family: var(second-font);
-        background-color: var(--third-color);
+        background-color: var(--fourth-color);
     }
 }
