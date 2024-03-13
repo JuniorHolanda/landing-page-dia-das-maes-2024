@@ -115,3 +115,29 @@
     background-color: var(--first-color);
 
 }
+
+@media (max-width: 400px) {
+    .sixth-page{
+        width: auto;
+    }
+
+    .content-sixth-page{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 0px 30px 0px;
+        gap: 20px;
+    }
+
+    .img-sixth-page{
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+        padding: 0;
+    }
+
+    .second-img-sixth-page{
+        display: none;
+    }
+    
+}

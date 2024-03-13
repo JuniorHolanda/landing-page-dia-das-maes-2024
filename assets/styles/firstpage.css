@@ -206,7 +206,6 @@
     .slider-container{
         display: grid;   
         grid-column: 1/2;
-        border: solid green;
     }
     
     /* Isso se aplica aos filhos do slide item */
@@ -257,7 +256,6 @@
         height: 100%;
         height: 100%;  
         padding: 0;
-        border: solid purple;
     }
 
     .card-dia-das-maes{
