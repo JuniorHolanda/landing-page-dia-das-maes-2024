@@ -42,7 +42,7 @@
     font-size: 0.5rem;
     color:var(--fourth-color);
     font-family: var(second-font);
-    background-color: var(--third-color);
+
 }
 
 @media screen and (min-width: 300px) and (max-width: 500px){
@@ -62,6 +62,5 @@
         font-size: 1rem;
         color:var(--fifth-color);
         font-family: var(second-font);
-        background-color: var(--fourth-color);
     }
 }
