@@ -29,6 +29,10 @@
 }
 
 @media (max-width: 400px) {
+
+    .lateral-esquerda {
+        order: 1;
+    }
     .fifth-page{
         justify-content: end;
         background-image: url(/assets/img/slide/quadrada/quadrado-nec-vani-slides.jpg);
