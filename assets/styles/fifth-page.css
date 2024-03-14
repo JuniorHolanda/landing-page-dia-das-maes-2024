@@ -17,6 +17,7 @@
     flex-direction: column;  
     justify-content: center;
     align-items: flex-start;
+    height: 100%;
     padding: 30px;
     background-color: var(--second-color);
     color: var(--third-color);
