@@ -1,7 +1,7 @@
 .sixth-page{
     display: flex;
     width: 100vw;
-    height: 100vh;
+    height: auto;
     justify-content: center;
     align-items: center; 
     background-color: var(--fifth-color);
@@ -139,5 +139,6 @@
     .second-img-sixth-page{
         display: none;
     }
+    
     
 }
